@@ -20,9 +20,9 @@ def convert_list_in_str(list_in: list) -> str:
                         out.append('0' + j)
                     else:
                         out.append(j)
-                str_out.append(''.join("'"))
+                str_out.append(''.join('"'))
                 str_out.append(''.join(out))
-                str_out.append(''.join("'"))
+                str_out.append(''.join('"'))
         n_list.append(''.join(str_out))
     return n_list
 

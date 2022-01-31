@@ -35,12 +35,11 @@ result_3 = sort_price_adv(my_list)
 print(result_3)
 
 def check_five_max_elements(list_in: list) -> list:
-    return sort_price_adv(list_in)[:5]
-    # Если case был в написании всей функции то:
-    # list_out = copy.deepcopy(list_in)
-    # list_out.sort(reverse=True)
-    # return list_out[:5]
-
+    list_out = copy.deepcopy(list_in)
+    list_out.sort(reverse=True)
+    return list_out[:5]
+    # Если case был в применениии ранее написанных функций то:
+    # return sort_price_adv(list_in)[:5]
 
 result_4 = check_five_max_elements(my_list)
 print(result_4)
