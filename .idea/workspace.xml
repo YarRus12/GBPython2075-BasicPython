@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7b7fd40-9fee-4d62-9cfd-c03969361890" name="Changes" comment="Задача 5 доработана, выполнено документирование&#10;Выполнена усложненная задача с флагом" />
+    <list default="true" id="a7b7fd40-9fee-4d62-9cfd-c03969361890" name="Changes" comment="Задача 5 доработана, выполнено документирование&#10;Выполнена усложненная задача с флагом. А вот именнованный аргумент куда включить - не догадался">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644233109255</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Задача 5 доработана, выполнено документирование&#10;Выполнена усложненная задача с флагом. А вот именнованный аргумент куда включить - не догадался">
+      <created>1644233203367</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1644233203367</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +282,7 @@
     <MESSAGE value="Пока отказался от решения задачи 4" />
     <MESSAGE value="В задаче 2 обработано исключение AttributeError, а также обрабатывается случаи когда вторая и третья буквы написаны в верхнем регистре (принодим все к нижнему)" />
     <MESSAGE value="Задача 5 доработана, выполнено документирование&#10;Выполнена усложненная задача с флагом" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задача 5 доработана, выполнено документирование&#10;Выполнена усложненная задача с флагом" />
+    <MESSAGE value="Задача 5 доработана, выполнено документирование&#10;Выполнена усложненная задача с флагом. А вот именнованный аргумент куда включить - не догадался" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задача 5 доработана, выполнено документирование&#10;Выполнена усложненная задача с флагом. А вот именнованный аргумент куда включить - не догадался" />
   </component>
 </project>

@@ -41,3 +41,6 @@ def get_jokes_adv(count: int, flag='No') -> list:
 
 print(get_jokes_adv(2))
 print(get_jokes_adv(10, 'Yes'))
+print('END')
+
+
