@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7b7fd40-9fee-4d62-9cfd-c03969361890" name="Changes" comment="quotes were changed in functions">
+    <list default="true" id="a7b7fd40-9fee-4d62-9cfd-c03969361890" name="Changes" comment="Основная часть работы завершена">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_5.py" afterDir="false" />
@@ -229,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644200776234</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Основная часть работы завершена">
+      <created>1644213333660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1644213333660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +253,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="quotes were changed in functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="quotes were changed in functions" />
+    <MESSAGE value="Основная часть работы завершена" />
+    <option name="LAST_COMMIT_MESSAGE" value="Основная часть работы завершена" />
   </component>
 </project>
