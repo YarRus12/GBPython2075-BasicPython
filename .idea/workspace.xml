@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7b7fd40-9fee-4d62-9cfd-c03969361890" name="Changes" comment="Основная часть работы завершена">
+    <list default="true" id="a7b7fd40-9fee-4d62-9cfd-c03969361890" name="Changes" comment="В задаче 2 обработано исключение AttributeError, а также обрабатывается случаи когда вторая и третья буквы написаны в верхнем регистре (принодим все к нижнему)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_3/task_3_5.py" afterDir="false" />
     </list>
@@ -193,9 +192,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.task_3_5" />
-        <item itemvalue="Python.task_3_4" />
         <item itemvalue="Python.task_3_3" />
         <item itemvalue="Python.task_3_2" />
+        <item itemvalue="Python.task_3_4" />
         <item itemvalue="Python.task_3_1" />
       </list>
     </recent_temporary>
@@ -237,7 +236,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644213333660</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Пока отказался от решения задачи 4">
+      <created>1644220089475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644220089475</updated>
+    </task>
+    <task id="LOCAL-00006" summary="В задаче 2 обработано исключение AttributeError, а также обрабатывается случаи когда вторая и третья буквы написаны в верхнем регистре (принодим все к нижнему)">
+      <created>1644229128010</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644229128010</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +267,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="quotes were changed in functions" />
     <MESSAGE value="Основная часть работы завершена" />
-    <option name="LAST_COMMIT_MESSAGE" value="Основная часть работы завершена" />
+    <MESSAGE value="Пока отказался от решения задачи 4" />
+    <MESSAGE value="В задаче 2 обработано исключение AttributeError, а также обрабатывается случаи когда вторая и третья буквы написаны в верхнем регистре (принодим все к нижнему)" />
+    <option name="LAST_COMMIT_MESSAGE" value="В задаче 2 обработано исключение AttributeError, а также обрабатывается случаи когда вторая и третья буквы написаны в верхнем регистре (принодим все к нижнему)" />
   </component>
 </project>
