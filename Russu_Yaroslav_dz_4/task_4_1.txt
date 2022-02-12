@@ -1,0 +1,43 @@
+#1.Проверить, установлен ли пакет pillow в глобальном окружении. Если да — зафиксировать версию.
+command:
+pip show pillow
+result:
+Name: Pillow
+Version: 9.0.1
+Summary: Python Imaging Library (Fork)
+Home-page: https://python-pillow.org
+Author: Alex Clark (PIL Fork Author)
+Author-email: aclark@python-pillow.org
+License: HPND
+Location: /Users/yaroslav/Dropbox/PythonDeveloper/GB/venv/lib/python3.9/site-packages
+Requires:
+
+#2.Установить самую свежую версию pillow,если ранее она не была установлена.
+command:
+pip install -U pillow
+result:
+Requirement already satisfied: pillow in /Users/yaroslav/Dropbox/PythonDeveloper/GB/venv/lib/python3.9/site-packages (9.0.1)
+
+#3.Создать и активировать виртуальное окружение.Убедиться,что в нем нет пакета pillow.
+commands:
+mkdir new_virtual_lab #Папка для нового виртуального окружения
+cd new_virtual_lab
+python3 -m venv new_virtual_lab
+source new_virtual_lab/bin/activate
+pip show pillow
+result:
+WARNING: Package(s) not found: pillow
+
+#4.Установить в виртуальное окружение pillow версии 7.1.1(или другой, отличной от самой свежей).
+commands:
+pip install pillow==8.3.2 #Для версии python 3.10.2 pillow 8.3.2 - минимальная версия
+result:
+Collecting pillow==8.3.2
+  Downloading Pillow-8.3.2-cp39-cp39-macosx_10_10_x86_64.whl (3.0 MB)
+     |████████████████████████████████| 3.0 MB 4.4 MB/s
+Installing collected packages: pillow
+Successfully installed pillow-8.3.2
+
+#5.Деактивировать виртуальное окружение.
+command:
+deactivate
