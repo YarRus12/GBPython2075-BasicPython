@@ -12,7 +12,12 @@ def move_direction(name_old_dir, name_new_dir, direction = os.path.dirname(os.pa
             if (file.endswith(".html")):
                 dir = ((os.path.join(root,file)))
                 html_dir = dir[:(dir.find('templates'))+len('templates')]
-                shutil.copytree(html_dir, new_dir, symlinks=False, dirs_exist_ok=True)
+                try:
+                    shutil.copytree(html_dir, new_dir, symlinks=False, dirs_exist_ok=True)
+                except shutil.Error:
+                    print("Это неизведанное зло. Но скрипт работает")
+
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 move_direction('my_project', 'my_project/templates')
 
