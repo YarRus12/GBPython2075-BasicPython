@@ -54,10 +54,10 @@ project_dir_sample('my_project')
 
 if __name__ == '__project_dir_sample__':
     import sys
-    if len(sys.argv) == 1:
+    if len(sys.argv) == 1 or len(sys.argv) == 2:
         exit(project_dir_sample(sys.argv))
     else:
-        raise TypeError("Напишите имя проекта")
+        raise TypeError("Напишите имя проекта, и через запятую можете указать другую директорию")
 print()
 
 
