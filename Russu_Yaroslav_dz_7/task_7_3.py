@@ -24,3 +24,11 @@ def move_direction(name_old_dir, name_new_dir, direction = os.path.dirname(os.pa
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 move_direction('my_project', 'my_project/templates')
+
+if __name__ == '__move_direction__':
+    import sys
+    if len(sys.argv) == 2 or len(sys.argv) == 3:
+        exit(move_direction(sys.argv))
+    else:
+        raise TypeError("Укажите папку-источник, название целевой папки через запятую")
+print()
