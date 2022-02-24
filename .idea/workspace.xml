@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c75f8a2-a581-4edf-a5a0-263c6fe69461" name="Changes" comment="Задание 2 выполнено. Подготовлена заготовка к заданию 4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7c75f8a2-a581-4edf-a5a0-263c6fe69461" name="Changes" comment="В задании 3 добавлены комментарии">
+      <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +166,28 @@
       <option name="project" value="LOCAL" />
       <updated>1645689949736</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="В задании 2 добавлены комментарии">
+      <created>1645745713687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645745713687</updated>
+    </task>
+    <task id="LOCAL-00005" summary="В задании 1 добавлена последняя пустая строка">
+      <created>1645745784418</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645745784418</updated>
+    </task>
+    <task id="LOCAL-00006" summary="В задании 3 добавлены комментарии">
+      <created>1645745860609</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645745860609</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +205,9 @@
     <MESSAGE value="Концептуально не изменилось" />
     <MESSAGE value="Сделал заготовку к заданию 2 в лоб" />
     <MESSAGE value="Задание 2 выполнено. Подготовлена заготовка к заданию 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание 2 выполнено. Подготовлена заготовка к заданию 4" />
+    <MESSAGE value="В задании 2 добавлены комментарии" />
+    <MESSAGE value="В задании 1 добавлена последняя пустая строка" />
+    <MESSAGE value="В задании 3 добавлены комментарии" />
+    <option name="LAST_COMMIT_MESSAGE" value="В задании 3 добавлены комментарии" />
   </component>
 </project>

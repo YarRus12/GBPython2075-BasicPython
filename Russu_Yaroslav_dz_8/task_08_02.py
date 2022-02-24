@@ -10,6 +10,8 @@ import os
 import re
 
 def log_pasing(folder):
+    """ Функция-костыль принимает в себя путь до файла, разбивает строки на блоки информации
+    и печатает результат"""
     with open(folder, 'r', encoding='utf-8') as logs:
         for i in logs:
             parsed_raw = []
@@ -27,3 +29,5 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 folder_name = 'nginx_logs.txt'
 path = os.path.join(BASE_DIR, folder_name)
 log_pasing(path)
+
+print()
