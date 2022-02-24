@@ -4,7 +4,7 @@
 def type_logger(func):
     def class_type(*args):
         """Функция принимает в себя поименнованные аргументы
-        и возвращает их значения через запятую (как в условии задачи)"""
+        и возвращает их значения и их тип через запятую (как в условии задачи)"""
         result = [type(i) for i in args]
         print(*zip(args, result), sep=', ')
     return class_type
