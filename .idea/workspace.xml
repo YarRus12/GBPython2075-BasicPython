@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c75f8a2-a581-4edf-a5a0-263c6fe69461" name="Changes" comment="Концептуально не изменилось">
+    <list default="true" id="7c75f8a2-a581-4edf-a5a0-263c6fe69461" name="Changes" comment="Сделал заготовку к заданию 2 в лоб">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_04.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,7 @@
     </file-type-list>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunManager" selected="Python.task_08_02">
+  <component name="RunManager" selected="Python.task_08_04">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,8 +95,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="task_08_03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../../venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Russu_Yaroslav_dz_8" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_08_04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/pythonProject/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Russu_Yaroslav_dz_8" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_04.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.task_08_04" />
+        <item itemvalue="Python.task_08_03" />
         <item itemvalue="Python.task_08_02" />
         <item itemvalue="Python.task_08_01" />
       </list>
@@ -109,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645664093429</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Сделал заготовку к заданию 2 в лоб">
+      <created>1645671363412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645671363412</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +177,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Концептуально не изменилось" />
-    <option name="LAST_COMMIT_MESSAGE" value="Концептуально не изменилось" />
+    <MESSAGE value="Сделал заготовку к заданию 2 в лоб" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал заготовку к заданию 2 в лоб" />
   </component>
 </project>
