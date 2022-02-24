@@ -25,3 +25,5 @@ if __name__ == '__main__':
     print(email_parse('someone@geekbrains.com'))
     print(email_parse('yarruss@mail.ru'))
     print(email_parse('someone@geekbrainsru'))
+
+print()
