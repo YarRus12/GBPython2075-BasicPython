@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c75f8a2-a581-4edf-a5a0-263c6fe69461" name="Changes" comment="Сделал заготовку к заданию 2 в лоб">
+    <list default="true" id="7c75f8a2-a581-4edf-a5a0-263c6fe69461" name="Changes" comment="Задание 2 выполнено. Подготовлена заготовка к заданию 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_03.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/Russu_Yaroslav_dz_8/task_08_04.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +29,7 @@
     </file-type-list>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RunManager" selected="Python.task_08_04">
+  <component name="RunManager" selected="Python.task_08_03">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,10 +137,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task_08_04" />
         <item itemvalue="Python.task_08_03" />
-        <item itemvalue="Python.task_08_02" />
         <item itemvalue="Python.task_08_01" />
+        <item itemvalue="Python.task_08_04" />
+        <item itemvalue="Python.task_08_02" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645671363412</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Задание 2 выполнено. Подготовлена заготовка к заданию 4">
+      <created>1645689949736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645689949736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Концептуально не изменилось" />
     <MESSAGE value="Сделал заготовку к заданию 2 в лоб" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал заготовку к заданию 2 в лоб" />
+    <MESSAGE value="Задание 2 выполнено. Подготовлена заготовка к заданию 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 2 выполнено. Подготовлена заготовка к заданию 4" />
   </component>
 </project>
