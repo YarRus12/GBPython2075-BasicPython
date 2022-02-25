@@ -1,32 +1,27 @@
-"""Написать декоратор с аргументом-функцией (callback), позволяющий валидировать входные значения функции и выбрасывать исключение ValueError, если что-то не так, например:
+from functools import wraps
 
-$ calc_cube(5)
-125
-$ calc_cube(-5)
-Traceback (most recent call last):
-  ...
-    raise ValueError(msg)
-ValueError: wrong val -5
-Исключение должно возбуждаться, если значение анализируемого аргумента не является положительным целочисленным значением, включая 0.
-
-Примечание: сможете ли вы замаскировать работу декоратора?
-
-ВНИМАНИЕ! Используйте стартовый код для своей реализации:
-"""
-def type_logger(func):
-    def class_type(*args):
-        result = [type(i) for i in args]
-        print(*zip(args, result), sep=', ')
-    return class_type
+def adv_check(*argv):
+    if len(argv) != 1:
+        raise ValueError(f"Провалена проверка № 1 {argv}")
+    #Проверка первого элемента именованного аргумента из кортежа
+    if not isinstance(argv[0], int) or argv[0] <= 0:
+        raise ValueError(f"Провалена проверка № 2 {argv[0]}")
 
 def val_checker(func):
-    def checker(args):
-        if len(args) == len([int(i) for i in args]):
-            pass
-        else:
-            raise ValueError("Напишите имя проекта, и через запятую можете указать другую директорию")
-        return checker
-@val_checker(val_checker)  # не забудьте про аргумент-функцию
+    """Функция принимает в себя функцию проверку значений позиционных аргументов
+    и возвращает значения, соответствующие условию проверки"""
+    def checker(main_func):
+        @wraps(main_func)
+        def wrapper(*args):
+            # Передача аргументов в функцию adv_check
+            func(*args)
+            result = main_func(*args)
+            return result
+        return wrapper
+    return checker
+
+
+@val_checker(adv_check)
 def calc_cube(x):
     """Возведение числа в третью степень"""
     return x ** 3
@@ -34,3 +29,4 @@ def calc_cube(x):
 if __name__ == '__main__':
     print(calc_cube(5))
     print(calc_cube('ss'))
+
