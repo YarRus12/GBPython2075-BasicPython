@@ -8,7 +8,7 @@ class TrafficLight:
              'green': 3}
     def running(self):
         import time
-        #Присвоим локальной переменной значение глобальной переменной
+        #Присвоим локальной переменной метода значение глобальной переменной
         color = TrafficLight.__color
         for key in color:
             time_left = color[key]
