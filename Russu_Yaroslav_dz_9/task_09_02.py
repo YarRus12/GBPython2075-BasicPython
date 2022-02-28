@@ -24,5 +24,4 @@ if __name__ == '__main__':
     road = Road(5000, 20)
     print(f'Для изготовления покрытия дороги нужно {road.calculate()} тонн.')
 
-
-
+print()
