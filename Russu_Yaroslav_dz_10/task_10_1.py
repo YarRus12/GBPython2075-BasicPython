@@ -1,15 +1,17 @@
 from typing import List
 
 class Matrix:
+    "Создание класса матрицы с проверкой одинакового количества значений в каждой строке матрицы"
     def __init__(self, matrix: List[List[int]]):
         len_row = len(matrix[0])
         for row in matrix:
             if len(row) != len_row:
+                #Если длинна хоть одной строки не соответствует длинне первой строки, то вызываем ошибку
                 raise ValueError(f'fail initialization matrix')
         self.matrix = matrix
 
     def __str__(self):
-        """реализовать перегрузку метода __str__() для вывода матрицы в привычном виде"""
+        """перегрузка метода __str__() для вывода матрицы в привычном виде"""
         s = ''
         for i in range(len(self.matrix)):
             s += f' | {" ".join(map(str, self.matrix[i]))} |'+'\n'
@@ -21,7 +23,7 @@ class Matrix:
                 raise ValueError('Матрицы не совпадают')
         """Запишу себе этот пример как best practice"""
         return Matrix([list(map(sum,zip(row_1, row_2)))
-                       for row_1, row_2 in zip(self.matrix,other.matrix)])
+                       for row_1, row_2 in zip(self.matrix, other.matrix)])
 
 if __name__ == '__main__':
     first_matrix = Matrix([[1, 2], [3, 4], [5, 6]])

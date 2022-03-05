@@ -4,19 +4,24 @@ class Cell:
         self.cells = cells
 
     def make_order(self, number: int) -> str:
+        """Функция принимает экземпляр класса и количество ячеек в ряду(number)"""
         list_str = ['*' * number for _ in range(self.cells//number)]
+        #заполнение последней строки
         list_str.append(self.cells % number * '*')
         return "\n".join(list_str)
 
     def __check_args(self, other):
+        #проверка относится ли объект к классу Клетки
         if not isinstance(other, Cell):
-            raise TypeError('Классы объектов различаются')
+            raise TypeError('действие допустимо только для экземпляров того же класса')
 
     def __add__(self, other):
+        #функция сложения
         self.__check_args(other)
         return Cell(self.cells+other.cells)
 
     def __sub__(self, other):
+        # функция вычитания с проверкой разности количества ячеек двух клеток больше нуля
         self.__check_args(other)
         result = self.cells - other.cells
         if result < 0:
@@ -24,14 +29,17 @@ class Cell:
         return Cell(result)
 
     def __mul__(self, other):
+        #функция умножения
         self.__check_args(other)
         return Cell(self.cells * other.cells)
 
     def __truediv__(self, other):
+        # функция целочисленнного деления
         self.__check_args(other)
         return Cell(self.cells // other.cells)
 
     def __floordiv__(self, other):
+        # функция целочисленнного деления
         self.__check_args(other)
         return Cell(self.cells / other.cells)
 
