@@ -10,3 +10,24 @@
 Подсказка: для этого задания примем, что пользователь может вводить только числа и строки.
 Во время ввода пользователем очередного элемента необходимо реализовать проверку типа элемента. Вносить его в список, только если введено число.
 Класс-исключение должен не позволить пользователю ввести текст (не число) и отобразить соответствующее сообщение. При этом работа скрипта не должна завершаться."""
+
+
+class Error:
+    def __init__(self, *args):
+        self.users_list = []
+
+    def my_input(self):
+        input_value = []
+        while input_value != 'Stop':
+            input_value = input('Введите значения и нажмите Enter, для завершения нажмите Stop: ')
+            if not input_value.isdigit():
+                print(f'Недопустимое значение')
+                continue
+            else:
+                self.users_list.append(input_value)
+        return f'Всего введено {len(self.users_list)} числовых значений: {self.users_list}'
+
+
+
+try_except = Error(1)
+print(try_except.my_input())
