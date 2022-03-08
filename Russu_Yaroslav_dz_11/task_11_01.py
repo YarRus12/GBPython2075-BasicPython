@@ -4,12 +4,15 @@ class Data:
         self.day_month_year = str(day_month_year)
 
     @classmethod
-    def extract(cls, day_month_year):
+    def extract(cls, day_month_year: str) -> tuple:
+        #Функция принимает в себя строковоe выражение и возвращает кортеж из чисел
         my_date = [i for i in day_month_year.split('-')]
         return int(my_date[0]), int(my_date[1]), int(my_date[2])
 
     @staticmethod
     def valid(day_month_year):
+        # Функция принимает в себя строковоe выражение и передает их другой функции,
+        # проверяет числа в кортеже и выдает результат
         day, month, year = Data.extract(day_month_year)
         if 1 <= day <= 31:
             if 1 <= month <= 12:
