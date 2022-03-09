@@ -31,6 +31,7 @@ print(Data.valid('09-03-2022'))
 #print(Data.valid('09-13-2022'))
 #print(Data.valid('59-03-2022'))
 #print(Data.valid('09-12-2025'))
+print()
 
 
 
