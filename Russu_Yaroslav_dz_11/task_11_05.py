@@ -3,8 +3,8 @@ class Store:
         self._dict = {}
 
     def add_to(self, Orgmachines):
-        ''' добавляем в словарь обьект по его названию, в значении
-        будет список экземпляров этого оборудования'''
+        """добавляем в словарь обьект по его названию, в значении
+        будет список оргтехники"""
         self._dict.setdefault(Orgmachines.group_name(), []).append(Orgmachines)
 
 
