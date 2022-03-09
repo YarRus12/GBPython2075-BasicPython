@@ -1,59 +1,55 @@
-"""Задание 5
-Продолжить работу над заданием 4.
-
-Разработать методы, которые отвечают за приём оргтехники на склад и передачу в определённое подразделение компании.
-Для хранения данных о наименовании и количестве единиц оргтехники,
-а также других данных, можно использовать любую подходящую структуру (например, словарь)."""
-
-
-class Sklad:
+class Store:
     def __init__(self):
-        self.list = []
+        self._dict = {}
 
-    def add_to(self, Orgtech):
-        self.list.append(Orgtech)
+    def add_to(self, Orgmachines):
+        ''' добавляем в словарь обьект по его названию, в значении
+        будет список экземпляров этого оборудования'''
+        self._dict.setdefault(Orgmachines.group_name(), []).append(Orgmachines)
 
-class Orgtech:
-    def __init__(self, name, price, quantity):
-        self.name = name
-        self.price = price
-        self.quantity = quantity
+
+class Orgmachines:
+    def __init__(self, *args):
+        self.group = self.__class__.__name__
+        self.name = input('Введите модель: ')
+        self.price = input('Введите цену: ')
+        self.quantity = input('Введите количество: ')
     def __str__(self):
-        return f'{self.name}-{self.price}-{self.quantity}'
+        return f'{self.name} {self.price} {self.quantity}'
+    def group_name(self):
+        return f'{self.group}'
 
-
-class Printer(Orgtech):
-    def __init__(self, name, price, quantity, cartrige):
-        super().__init__(name, price, quantity)
-        self.series = cartrige
+class Scaner(Orgmachines):
+    def __init__(self):
+        super().__init__()
+        self.resolustion = input('Введите разрешение сканера (например 1080): ')
     def __str__(self):
-        return f'{self.name}-{self.price}-{self.quantity}-{cartrige}'
+        return f'{self.name}, {self.price}, {self.quantity}, {self.resolustion}'
 
-class Scaner(Orgtech):
-    def __init__(self, name, price, quantity, resolution):
-        super().__init__(name, price, quantity)
-        self.resolution = resolution
+class Printer(Orgmachines):
+    def __init__(self):
+        super().__init__()
+        self.cartridge = input('Введите модель картриджа: ')
     def __str__(self):
-        return f'{self.name}-{self.price}-{self.quantity}-{self.resolution}'
+        return f'{self.name}, {self.price}, {self.quantity}, {self.cartridge}'
 
-class Xerox(Orgtech):
-    def __init__(self, name, price, quantity, color=False):
-        super().__init__(name, price, quantity)
-        self.color = color
+class Xerox(Orgmachines):
+    def __init__(self):
+        super().__init__()
+        self.color = input('Выполняет ли Xerox цветную печать? y/n: ')
     def __str__(self):
-        return f'{self.name}-{self.price}-{self.quantity}-{self.color}'
+        return f'{self.name} {self.price} {self.quantity} {self.color}'
 
 
-sklad = Sklad()
+store = Store()
 # создаем объект и добавляем
-scaner = Scaner('hp', '321', 90, 1080)
-sklad.add_to(scaner)
-printer = Printer('ms', '400', 97, 'C5-11')
-sklad.add_to(scaner)
-xerox = Xerox('ks', '1000', 82)
-sklad.add_to(xerox)
+scaner = Scaner()
+store.add_to(scaner)
+xerox = Xerox()
+store.add_to(xerox)
+printer = Printer()
+store.add_to(printer)
 # выводим склад
-for i in sklad.list:
-    print(i, end='\n')
-
+for key, value in store._dict.items():
+    print(key, ':', *value)
 print()
