@@ -14,3 +14,4 @@ class DivisionByZero:
 print(DivisionByZero.divide_by_null(100, 0))
 print(DivisionByZero.divide_by_null(100, 1))
 print(DivisionByZero.divide_by_null(100, 3))
+print()
