@@ -12,7 +12,7 @@ class Orgtech:
         self.quantity = quantity
 
     class Printer(Orgtech):
-        def __init__(self, cartrige = 'CA99'):
+        def __init__(self, cartrige='CA99'):
             self.cartrige = cartrige
 
     class Scaner(Orgtech):

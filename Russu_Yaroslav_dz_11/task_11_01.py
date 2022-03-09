@@ -26,7 +26,6 @@ class Data:
             raise ValueError(f'Ошибка в указании дня')
 
 
-
 print(Data.valid('09-03-2022'))
 #print(Data.valid('09-13-2022'))
 #print(Data.valid('59-03-2022'))
